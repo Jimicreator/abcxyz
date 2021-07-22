@@ -78,7 +78,7 @@ async def filter(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}`  ­  ­  ­ </b>",
+                f"<b>Here is What I Found In My Database For Your Query 👉 `{search}`  ­  ­  ­ </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -94,7 +94,7 @@ async def filter(client, message):
         )
 
         await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}`­  ­  ­  ­  ­  </b>",
+                f"<b>Here is What I Found In My Database For Your Query  👉 `{search}`­  ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -133,7 +133,7 @@ async def group(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}` ­  ­  ­  ­  </b>",
+                f"<b>Here is What I Found In My Database For Your Query `{search}` ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -149,7 +149,7 @@ async def group(client, message):
         )
 
         await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}` ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>",
+                f"<b>Here is What I Found In My Database For Your Query `{search}` ‌‌‌‌‎ ­  ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE** ",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
 
@@ -259,7 +259,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Update Group', url='https://t.me/jns_fc_bots')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/jintons'>JNS</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMovies : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER</a>\nUpdate Channel : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/jintons'>JNS</a> 🥳\nLanguage : <code>Python3</code> 🤠\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>💫\nMovies : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER</a>☀️\nUpdate Channel : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆</a> 🌟</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
