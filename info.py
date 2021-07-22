@@ -31,7 +31,7 @@ default_start_msg = """
 **Hi 🤠 , I'm JNS Media Search Bot or you can call me as Auto-Filter Bot**
 
 `Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.`
-_For more helps or doubts_ @JNS_FC_BOTS
+For more helps or doubts @JNS_FC_BOTS
 
 
 **SOURCE OF MOVIES @FCfilmcornerfc** 💖
