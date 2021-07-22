@@ -70,9 +70,9 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
+Contact Me On [Telegram](https://t.me/jintons)
 
-[Update Channel](https://t.me/subin_works)
+[Update Channel](https://t.me/jns_fc_bots)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
