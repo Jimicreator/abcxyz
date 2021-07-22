@@ -78,7 +78,7 @@ async def filter(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query 👉 `{search}`  ­  ­  ­ </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
+                f"<b>Here is What I Found In My Database For Your Query 👉 `{search}`  ­  ­  ­ </b> \n\n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n\n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -94,7 +94,7 @@ async def filter(client, message):
         )
 
         await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query  👉 `{search}`­  ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
+                f"<b>Here is What I Found In My Database For Your Query  👉 `{search}`­  ­  ­  ­  ­  </b> \n\n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n\n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -133,7 +133,7 @@ async def group(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}` ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE**",
+                f"<b>Here is What I Found In My Database For Your Query `{search}` ­  ­  ­  ­  </b> \n\n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n\n**MOVIE NAME YEAR LANGUAGE**",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -149,7 +149,7 @@ async def group(client, message):
         )
 
         await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query `{search}` ‌‌‌‌‎ ­  ­  ­  ­  ­  </b> \n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n**MOVIE NAME YEAR LANGUAGE** ",
+                f"<b>Here is What I Found In My Database For Your Query `{search}` ‌‌‌‌‎ ­  ­  ­  ­  ­  </b> \n\n `IF YOU DIDN'T FIND ANY RESULTS FOLLOW BELOW FORMAT` \n\n**MOVIE NAME YEAR LANGUAGE** ",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
 
