@@ -57,7 +57,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Movies', url='https://t.me/FCfilmcornerfc')
+                        InlineKeyboardButton('More Movies', url='https://t.me/Jimi_Bots/10')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -90,7 +90,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("more movies", url="https://t.me/FCfilmcornerfc")
+                        InlineKeyboardButton("more movies", url="https://t.me/Jimi_Bots/10")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -183,8 +183,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/jns_bots'),
-            InlineKeyboardButton('Update Group', url='https://t.me/jns_fc_bots')
+            InlineKeyboardButton('Update Channel', url='https://t.me/Jimi_Bots'),
+            InlineKeyboardButton('Update Group', url='https://t.me/Jimibot_grp')
         ]
         ]
-    await query.message.edit(text="<b>Developer : <a href='https://t.me/jintons'>JNS</a> 🥳\nLanguage : <code>Python3</code> 🤠\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>💫\nMovies : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER</a>☀️\nUpdate Channel : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆</a> 🌟</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await query.message.edit(text="<b>Developer : <a href='https://t.me/Jimi_Bots'>Your Love & Support</a> 🥳\nLanguage : <code>Python3</code> 🤠\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>💫\nMovies : <a href='https://t.me/Jimi_Bots/10'>FILM CORNER</a>☀️\nUpdate Channel : <a href='https://t.me/Jimi_Bots'>ＪiMi ᗷ〇Ƭ⟆</a> 🌟</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
