@@ -28,16 +28,16 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi 🤠 , I'm JNS Media Search Bot or you can call me as Auto-Filter Bot**
+**Hi 🤠 , I'm JIMI Movie Search Bot or you can call me as Auto-Filter Bot**
 
 `Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.`
-For more helps or doubts @JNS_FC_BOTS
+For more helps or doubts @jimibots_grp
 
 
-**SOURCE OF MOVIES @FCfilmcornerfc** 💖
+**SOURCE OF MOVIES @Jimi_Bots** 💖
 
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-**JOIN ON @JNS_BOTS FOR USE ME**
+**JOIN ON @Jimi_Bots FOR USE ME**
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 """
 
