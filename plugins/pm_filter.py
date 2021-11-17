@@ -255,11 +255,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/jns_bots'),
-                    InlineKeyboardButton('Update Group', url='https://t.me/jns_fc_bots')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/Jimi_Bots'),
+                    InlineKeyboardButton('Update Group', url='https://t.me/jimibot_grp')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/jintons'>JNS</a> 🥳\nLanguage : <code>Python3</code> 🤠\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>💫\nMovies : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER</a>☀️\nUpdate Channel : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆</a> 🌟</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/Jimi_Bots'>Made With 💓</a> 🥳\nLanguage : <code>Python3</code> 🤠\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>💫\nMovies : <a href='https://t.me/Jimi_Bots/10'>FILM CORNER</a>☀️\nUpdate Channel : <a href='https://t.me/Jimi_Bots'>ＪImI ᗷ〇Ƭ⟆</a> 🌟</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -272,8 +272,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('More Movies', url='https://t.me/FCfilmcornerfc'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/jns_bots')
+                        InlineKeyboardButton('More Movies', url='https://t.me/Jimi_Bots/10'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Jimi_Bots')
                     ]
                     ]
                 
@@ -296,8 +296,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('More Movies', url='https://t.me/FCfilmcornerfc'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/jns_bots')
+                        InlineKeyboardButton('More Movies', url='https://t.me/Jimi_Bots/10'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Jimi_Bots')
                     ]
                     ]
                 
